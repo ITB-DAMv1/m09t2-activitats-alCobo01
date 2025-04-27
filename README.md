@@ -27,7 +27,14 @@ els analitzadors de rendiment. Aquests són els mètodes, classes i propietats m
      - **IsRunning**: Obté un booleà que indica si el _Stopwatch_ actual està en marxa
 
 ## Exercici 2
+[Enllaç](Codi M9-T2. Activitats\Exercicis.cs) al codi d'aquest exercici
+
 ## Exercici 3
+Els navegadors moderns funcionen amb un model multiprocess, de manera que cada pestanya s’executa en un procés separat. Per això, obrir noves pestanyes no incrementa el nombre de fils del procés original; en canvi, es creen nous processos amb els seus propis fils. Dins de cada procés, el nombre de fils —destinats a tasques d’E/S, renderitzat, xarxa, etc.— es manté relativament igual.
+
+[Enllaç](Codi M9-T2. Activitats\Exercicis.cs) al codi d'aquest exercici
+
+
 ## Exercici 4
 La classe **Thread** (_System.Threading.Thread_) representa un fil d'execució dins d'un procés, i permet crear i controlar fils.
 També pot controlar la prioritat dels fils i obtenir informació. És una forma de baix nivell per a la concurrència. Aquests són els
@@ -55,4 +62,12 @@ Aquí es poden veure les diferències clau entre la classe **Thread** i **Task**
 
 
 ## Exercici 5
+Els fils no s'executen en l'orde en que es començen per això:
+- **Ordre no determinista**: els fils no s'executen en el mateix ordre en què s'inicien; el sistema operatiu decideix quin fil corre en cada moment.
+- **Latències aleatòries**: el sleep amb retards aleatoris fa que cada fil trighi diferent en començar, afegint més variabilitat.
+- **Entorn al núvol**: treballant en entorns virtualitzats com l'IsardVDI hi ha més capes que introdueixen retards i fan encara més imprevisible l'ordre d'execució.
+
+[Enllaç](Codi M9-T2. Activitats\Exercicis.cs) al codi d'aquest exercici
+
 ## Exercici 6
+[Enllaç](Codi M9-T2. Activitats\Exercicis.cs) al codi d'aquest exercici
