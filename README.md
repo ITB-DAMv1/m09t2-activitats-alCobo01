@@ -27,12 +27,12 @@ els analitzadors de rendiment. Aquests són els mètodes, classes i propietats m
      - **IsRunning**: Obté un booleà que indica si el _Stopwatch_ actual està en marxa
 
 ## Exercici 2
-[Enllaç](Codi M9-T2. Activitats\Exercicis.cs) al codi d'aquest exercici
+[Enllaç](<Codi M9-T2. Activitats\Exercicis.cs>) al codi d'aquest exercici
 
 ## Exercici 3
 Els navegadors moderns funcionen amb un model multiprocess, de manera que cada pestanya s’executa en un procés separat. Per això, obrir noves pestanyes no incrementa el nombre de fils del procés original; en canvi, es creen nous processos amb els seus propis fils. Dins de cada procés, el nombre de fils —destinats a tasques d’E/S, renderitzat, xarxa, etc.— es manté relativament igual.
 
-[Enllaç](Codi M9-T2. Activitats\Exercicis.cs) al codi d'aquest exercici
+[Enllaç](<Codi M9-T2. Activitats\Exercicis.cs>) al codi d'aquest exercici
 
 
 ## Exercici 4
@@ -67,7 +67,7 @@ Els fils no s'executen en l'orde en que es començen per això:
 - **Latències aleatòries**: el sleep amb retards aleatoris fa que cada fil trighi diferent en començar, afegint més variabilitat.
 - **Entorn al núvol**: treballant en entorns virtualitzats com l'IsardVDI hi ha més capes que introdueixen retards i fan encara més imprevisible l'ordre d'execució.
 
-[Enllaç](Codi M9-T2. Activitats\Exercicis.cs) al codi d'aquest exercici
+[Enllaç](<Codi M9-T2. Activitats\Exercicis.cs>) al codi d'aquest exercici
 
 ## Exercici 6
-[Enllaç](Codi M9-T2. Activitats\Exercicis.cs) al codi d'aquest exercici
+[Enllaç](<Codi M9-T2. Activitats\Exercicis.cs>) al codi d'aquest exercici
